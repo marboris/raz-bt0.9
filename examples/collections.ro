@@ -1,0 +1,21 @@
+function main() {
+    let numbers: List<int> = [1, 2, 3];
+    numbers.add(4);
+    echo(numbers.get(2));
+    echo(numbers.size());
+    echo(numbers.contains(4));
+
+    let prices: Map<String, double> = {"cpu": 3.5, "ram": 4.0};
+    prices.put("gpu", 5);
+    echo(prices.get("gpu"));
+    echo(prices["ram"]);
+
+    let tags: Set<int> = new Set<int>();
+    tags.add(10);
+    tags.add(20);
+    echo(tags.contains(10));
+    tags.remove(10);
+    echo(tags.size());
+}
+
+main();

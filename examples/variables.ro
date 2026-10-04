@@ -1,0 +1,11 @@
+function main() {
+    let a = 10;
+    let b = 2.5;
+    let ok = true;
+    let message = "hello";
+    echo(message);
+    echo(a + b);
+    echo(ok);
+}
+
+main();

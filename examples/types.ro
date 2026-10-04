@@ -1,0 +1,18 @@
+function main() {
+    let a: int = 10;
+    let b: long = a;
+    let c: float = 1.5f;
+    let d: double = c;
+    let ch: char = 'R';
+    let ok: boolean = true;
+    let name: String = "Raz";
+
+    if (ok && ch < 128) {
+        echo(name);
+        echo(b);
+        echo(c);
+        echo(d);
+    }
+}
+
+main();

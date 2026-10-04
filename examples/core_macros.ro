@@ -1,0 +1,19 @@
+// M0.4 Core methods/macros example.
+__phead("#include <vector>");
+
+macro twice(x) {
+    return x + x;
+}
+
+macro say(x) {
+    echo(x);
+}
+
+function main() {
+    let answer: int = twice(21);
+    say("Raz core macro");
+    __eval("std::vector<int> values{1, 2, 3}; std::cout << values.size() << std::endl;");
+    echo(answer);
+}
+
+main();

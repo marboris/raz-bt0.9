@@ -1,0 +1,7 @@
+{
+  "name": "raz2-bootstrap",
+  "version": "0.6.0",
+  "stdlib": "stdlib",
+  "source_roots": ["examples"],
+  "dependencies": {}
+}

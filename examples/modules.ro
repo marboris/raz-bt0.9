@@ -1,0 +1,9 @@
+include("lib/math.ro");
+
+function main() {
+    let x = math::square(7);
+    echo(x);
+    return 0;
+}
+
+main();

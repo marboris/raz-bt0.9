@@ -1,0 +1,16 @@
+// Raz 2 M0.3 control-flow example.
+function main() {
+    let total: int = 0;
+
+    for (let i: int = 0; i < 5; i = i + 1) {
+        if (i == 0) {
+            total = total + i;
+        } else {
+            total = total + 10;
+        }
+    }
+
+    echo(total);
+}
+
+main();

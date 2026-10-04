@@ -1,0 +1,9 @@
+include("std:math.ro");
+include("pkg:demo/math.ro");
+
+function main() {
+    echo(std::math::square(7));
+    echo(demo::math::triple(14));
+}
+
+main();

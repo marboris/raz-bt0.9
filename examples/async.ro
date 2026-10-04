@@ -1,0 +1,18 @@
+async function delayed_double(x: int) -> int {
+    sleep(1);
+    return x * 2;
+}
+
+async function combined(x: int) -> int {
+    let left = await delayed_double(x);
+    let right = await delayed_double(1);
+    return left + right;
+}
+
+function main() {
+    let answer: int = await combined(20);
+    echo(answer);
+    delayed_double(100);
+}
+
+main();

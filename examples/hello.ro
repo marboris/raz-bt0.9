@@ -1,0 +1,15 @@
+use linux;
+
+function greet(name: String) {
+    echo("Hello, " + name);
+}
+
+function main() {
+    let name = "Raz";
+    greet(name);
+    let answer = 6 * 7;
+    echo(answer);
+    return 0;
+}
+
+main();

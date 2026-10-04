@@ -1,0 +1,9 @@
+{
+  "name": "package_app",
+  "version": "0.1.0",
+  "stdlib": "../../../stdlib",
+  "source_roots": ["src"],
+  "dependencies": {
+    "demo": "../demo"
+  }
+}
